@@ -6,8 +6,10 @@ class Home extends Component {
     render(){
         return(
             <div>
-                <h1 className ='center'>Star Wars Movie List</h1>
-                <h3 className ='center'>Mark as Watched with a click</h3>
+                <div className="titles">
+                    <h1>Star Wars Movie List</h1>
+                    <h3>Mark as Watched with a click</h3>
+                </div>
                 <MovieList/>
             </div>
         )

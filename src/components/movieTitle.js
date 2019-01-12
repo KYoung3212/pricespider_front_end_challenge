@@ -8,6 +8,7 @@ class MovieTitle extends Component {
 
         this.state = {
             toggled: false
+            // Toggled State starts as false and is changed to true on click
         }
     }
 
@@ -22,6 +23,7 @@ class MovieTitle extends Component {
         const { toggled } = this.state;
 
         return (
+            //Adds the toggled class if the individual movie item has the toggled state set to 'true'
             <li className={ `${toggled ? 'toggled' : ''} collection-item` } onClick={this.toggleLink} >{title}</li>
         )
     }
