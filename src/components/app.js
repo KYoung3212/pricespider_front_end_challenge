@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Home from './home.js';
 
 class App extends Component {
     constructor(props){
@@ -7,6 +7,13 @@ class App extends Component {
         this.state = {
             items: []
         };
+    };
+    render(){
+        return (
+            <div className = 'container'>
+                <Home/>
+            </div>
+        );
     }
 }
 
