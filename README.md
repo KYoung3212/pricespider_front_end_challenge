@@ -1,6 +1,8 @@
 # Jr Front End Software Engineer Coding Challenge - Kevin Young
 
 > Assigned 1/11/19 (Weekend Assignment)
+> Built the application using React.JS, with it being one of the most popular current frameworks.
+> Did not use any inline styles; used external CSS style sheet
 
 ### Setup Instructions
 
