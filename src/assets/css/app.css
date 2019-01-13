@@ -21,10 +21,6 @@ body {
 	text-align: center;
 }
 
-li{
-	margin: 30px 0;
-  }
-
 h3{
 	display: block;
 	margin-left: auto;
@@ -64,6 +60,13 @@ li {
 	-webkit-text-fill-color: black;
 	-webkit-text-stroke-color: gold;
 	-webkit-text-stroke-width: 0.2px; 
+	margin: 30px 0;
+}
+
+/* Customized Star Wars cursor pointer */
+li:hover {
+	cursor: url('../images/yodaSaber.png'), auto;
+	/* cursor:pointer; */
 }
 
 html { 
