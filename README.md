@@ -17,7 +17,7 @@
 >    - `npm install`
 > 5. Start dev server
 >    - `npm start`
-> 6. Open a browser and navigate to `localhost:3000` You should see a page that displays the Star Wars movie list with an R2D2 background, that has clickable move titles.
+> 6. Open a browser and navigate to `localhost:3000`. You should see a page that displays the Star Wars movie list with an R2D2 background. The Star Wars Movie List should have clickable movie titles, which are greyed out when marked as watched, with the final movie (Episode IX) being unclickable.  The most recent added feature was the light saber pointer on hover of a movie title. 
 
 ### Bundle For Deployment
 
