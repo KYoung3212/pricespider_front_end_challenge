@@ -32,7 +32,7 @@ h3{
 	overflow: hidden;
 	-webkit-text-fill-color: black;
 	-webkit-text-stroke-color: gold;
-	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-width: 0.8px;
 }
 /* The :after selector is used to allow the background to be transparent to be able to view the text easily  */
 .titles:after {
@@ -59,7 +59,7 @@ h3{
 li {
 	-webkit-text-fill-color: black;
 	-webkit-text-stroke-color: gold;
-	-webkit-text-stroke-width: 0.2px; 
+	-webkit-text-stroke-width: 0.3px; 
 	margin: 30px 0;
 }
 
