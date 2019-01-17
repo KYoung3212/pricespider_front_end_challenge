@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import listData from '../data/movieData';
 import MovieTitle from './movieTitle';
-import { S_IXGRP } from 'constants';
 
 class MovieList extends Component{
     constructor(props){{
